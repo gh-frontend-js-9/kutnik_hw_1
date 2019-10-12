@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="section_one">
+            <h1>Урок "Формы": теги и их атрибуты.</h1>
+            <form action="">
+                <fieldset>
+                    <legend><b>Коротк о себе</b></legend>
+                    Имя: <input type="text" size="30"><br>
+                    Фамилия: <input type="text" size="30"><br>
+                    Пол: <input type="radio">мужской
+                    <input type="radio">женский <br>
+                    Возрост: <input type="text" size="3"> лет
+                </fieldset>    
+            </form>
+    </section>
+    <section class="section_one">
+        <form action="">
+            <fieldset>
+                <legend><b>Подробнее о себе</b></legend>
+                <input type="radio"> Молодой человек<br>
+                <input type="radio"> Девушка<br>
+
+                <input type="text"> Дата рождения<br>
+                <input type="text"> Семейное положение<br>
+                <input type="text"> Социальный статус<br>
+                <input type="text"> Местожительства<br>
+
+                <p><b>Что вы обычно деляете на выходных:</b></p>    
+                <input type="checkbox"> Сплю<br>
+                <input type="checkbox"> Гуляю с друзьями<br>
+                <input type="checkbox"> Хожу на рибалку<br>
+                <input type="checkbox"> Играю в игры<br>
+
+                <p><b>Рассказать о формах в книге, посвященной HTML:</b></p>
+                <select name="">
+                    <option value="">Site frequency:</option>
+                    <option value="">input</option>
+                    <option value="">radio</option>
+                    <option value="">checkbox</option>
+                </select><br>
+
+                <p><b>Сколько книг вы прочитали за всю жизнь:</b></p><br>
+                <input type="radio"> 0-10 <br>
+                <input type="radio"> 11-20 <br>
+                <input type="radio"> 21-50 <br>
+                <input type="radio"> 50+ <br>
+
+                <p><b>Ваши комментарии:</b></p>
+                <textarea name="" cols="100" rows="15"></textarea><br>
+
+                <select name="" size="3">
+                    <option value="">Первая позиция</option>
+                    <option value="">Вторая позиция</option>
+                    <option value="">Третья позиция</option>
+                </select>
+            </fieldset>
+        </form>
+    </section>
+    <section class="section_one">
+        <form action="">
+            <fieldset>
+                <legend><b>И в заклчении</b></legend>
+                <input type="text" placeholder="Это поле было введено до вас" size="30"><br>
+                <b>Email:</b><br>
+                <input type="email" size="30"><br>
+
+                <p><b>Хотите подписаться на самую модную розссылку спама?</b><br>
+                <em>Выберите категории</em><br></p>
+                <input type="checkbox"> Оборудованик <br>
+                <input type="checkbox"> Как приготовить обеды <br>
+                <input type="checkbox"> Заработай миллион за два дня! <br>
+
+                <p><b>На сколько слодная задача:</b></p>
+                <input type="radio"> Совсем нет<br>
+                <input type="radio"> Так себе<br>
+                <input type="radio"> Еле справились<br>
+            </fieldset><br>
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>

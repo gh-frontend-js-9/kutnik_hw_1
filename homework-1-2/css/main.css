@@ -1,0 +1,13 @@
+.section_one{
+    max-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+form{
+    font-size: 22px;
+}
+select{
+    width: 200px;
+    font-size: 18px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.articl{
+    max-width: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 70px;
+    font-size: 20px;
+}
+.articl h1{
+    padding-top: 20px;
+    text-align: center; 
+}
+.articl article{
+    text-align: center;
+    font-size: 22px;
+}
+.articl h3{
+    text-align: center; 
+}
+.center{
+    text-align: center; 
+}
+.articl img{
+    padding: 0 10px 0 0;
+}
+.figure{
+    display: flex;
+    justify-content: center;
+}
