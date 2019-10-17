@@ -7,37 +7,48 @@
 </head>
 <body>
     <section class="section_one">
-            <h1>Урок "Формы": теги и их атрибуты.</h1>
-            <form action="">
-                <fieldset>
-                    <legend><b>Коротк о себе</b></legend>
-                    Имя: <input type="text" size="30"><br>
-                    Фамилия: <input type="text" size="30"><br>
-                    Пол: <input type="radio">мужской
-                    <input type="radio">женский <br>
-                    Возрост: <input type="text" size="3"> лет
-                </fieldset>    
-            </form>
-    </section>
-    <section class="section_one">
+        <h1>Урок "Формы": теги и их атрибуты.</h1>
+        <h2>Расскажите немного о себе...</h2>
+        <p>Попробуй  создать аналогичну  фотрму  Для  целей  демонстрации вполне  подойдут и вымешленные.</p>
         <form action="">
             <fieldset>
+                <legend><b>Коротк о себе</b></legend>
+                <label for="">Имя:</label>
+                <input type="text" size="30"><br>
+                <label for="">Фамилия: </label>
+                <input type="text" size="30"><br>
+                <label for=""> Пол: </label>
+                <input type="radio">мужской
+                <input type="radio">женский <br>
+                <label for="">Возрост:</label>
+                <input type="text" size="3">
+                <label for="">лет</label>
+            </fieldset>    
+            <fieldset>
                 <legend><b>Подробнее о себе</b></legend>
-                <input type="radio"> Молодой человек<br>
-                <input type="radio"> Девушка<br>
+                <input type="radio">
+                <label for="">Молодой человек</label><br>
+                <input type="radio">
+                <label for="">Девушка</label><br>
 
-                <input type="text"> Дата рождения<br>
-                <input type="text"> Семейное положение<br>
-                <input type="text"> Социальный статус<br>
-                <input type="text"> Местожительства<br>
+                <input type="text">
+                <label for="">Дата рождения</label><br>
+                <input type="text">
+                <label for=""> Семейное положение</label><br>
+                <input type="text">
+                <label for=""> Социальный статус</label><br>
+                <input type="text">
+                <label for="">Местожительства</label>
+                
+                <span><b>Что вы обычно деляете на выходных:</b></span>
+                <ul>
+                    <li><input type="checkbox"><label for=""> Сплю</label></li>
+                    <li><input type="checkbox"><label for=""> Гуляю с друзьями</label></li>
+                    <li><input type="checkbox"><label for=""> Хожу на рибалку</label></li>
+                    <li><input type="checkbox"><label for="">Играю в игры</label></li>
+                </ul>
 
-                <p><b>Что вы обычно деляете на выходных:</b></p>    
-                <input type="checkbox"> Сплю<br>
-                <input type="checkbox"> Гуляю с друзьями<br>
-                <input type="checkbox"> Хожу на рибалку<br>
-                <input type="checkbox"> Играю в игры<br>
-
-                <p><b>Рассказать о формах в книге, посвященной HTML:</b></p>
+                <span><b>Рассказать о формах в книге, посвященной HTML:</b></span>               
                 <select name="">
                     <option value="">Site frequency:</option>
                     <option value="">input</option>
@@ -45,13 +56,15 @@
                     <option value="">checkbox</option>
                 </select><br>
 
-                <p><b>Сколько книг вы прочитали за всю жизнь:</b></p><br>
-                <input type="radio"> 0-10 <br>
-                <input type="radio"> 11-20 <br>
-                <input type="radio"> 21-50 <br>
-                <input type="radio"> 50+ <br>
-
-                <p><b>Ваши комментарии:</b></p>
+                <span><b>Сколько книг вы прочитали за всю жизнь:</b></span>
+                <ul>
+                    <li><input type="radio"><label for="">0-10</label></li>
+                    <li><input type="radio"><label for="">11-20</label></li>
+                    <li><input type="radio"><label for="">21-50</label></li>
+                    <li><input type="radio"><label for="">50+</label></li>
+                </ul>
+                
+                <span><b>Ваши комментарии:</b></span>
                 <textarea name="" cols="100" rows="15"></textarea><br>
 
                 <select name="" size="3">
@@ -60,27 +73,27 @@
                     <option value="">Третья позиция</option>
                 </select>
             </fieldset>
-        </form>
-    </section>
-    <section class="section_one">
-        <form action="">
             <fieldset>
                 <legend><b>И в заклчении</b></legend>
                 <input type="text" placeholder="Это поле было введено до вас" size="30"><br>
                 <b>Email:</b><br>
                 <input type="email" size="30"><br>
 
-                <p><b>Хотите подписаться на самую модную розссылку спама?</b><br>
-                <em>Выберите категории</em><br></p>
-                <input type="checkbox"> Оборудованик <br>
-                <input type="checkbox"> Как приготовить обеды <br>
-                <input type="checkbox"> Заработай миллион за два дня! <br>
+                <span><b>Хотите подписаться на самую модную розссылку спама?</b><br>
+                <i>Выберите категории</i><br></span>
+                <ul>
+                    <li><input type="checkbox"><label for="">Оборудованик </label></li>
+                    <li><input type="checkbox"><label for=""> Как приготовить обеды</label></li>
+                    <li> <input type="checkbox"><label for="">Заработай миллион за два дня!</label></li>
+                </ul>
 
-                <p><b>На сколько слодная задача:</b></p>
-                <input type="radio"> Совсем нет<br>
-                <input type="radio"> Так себе<br>
-                <input type="radio"> Еле справились<br>
-            </fieldset><br>
+                <span><b>На сколько слодная задача:</b></span>
+                <ul>
+                    <li><input type="radio"> <label for=""> Совсем нет</label></li>
+                    <li><input type="radio"> <label for="">Так себе</label> </li>
+                    <li><input type="radio"> <label for="">Еле справились</label></li>
+                </ul>
+            </fieldset>
             <input type="submit">
         </form>
     </section>

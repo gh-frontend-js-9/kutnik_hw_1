@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+address{
+    font-style: normal;
+}
 .articl{
     max-width: 1000px;
     width: 1000px;
@@ -14,13 +18,11 @@
     padding-top: 20px;
     text-align: center; 
 }
-.articl article{
+article > address{
     text-align: center;
     font-size: 22px;
 }
-.articl h3{
-    text-align: center; 
-}
+
 .center{
     text-align: center; 
 }
